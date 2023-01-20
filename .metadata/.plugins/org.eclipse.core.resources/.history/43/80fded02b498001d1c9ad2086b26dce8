@@ -1,0 +1,6 @@
+package com.example.demo.ws;
+
+@WebService(endpointInterface="com.example.demo.ws.HelloWorld")
+public class HelloWorldImpl implements HelloWorld{
+
+}

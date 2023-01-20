@@ -1,0 +1,11 @@
+package com.example.demo.entity;
+
+public class UserAdapter extends XmlAdapter<UserImpl, User>{
+	public UserImpl marshal(User v) throws Exception{
+		if(v instanceof UserImpl){
+			return (UserImpl)v;
+		}
+		
+	}
+
+}

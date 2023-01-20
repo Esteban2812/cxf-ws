@@ -1,0 +1,9 @@
+package com.example.demo.server;
+
+public class Server {
+	protected Server() throws Exception {
+		System.out.println("Starting Server")
+		HelloWorldImpl implementor = new HelloWorldImpl();
+		String address = "http://localhost:9000/helloWorld"
+	}
+}

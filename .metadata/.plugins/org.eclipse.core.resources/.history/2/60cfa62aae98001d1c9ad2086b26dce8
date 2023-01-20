@@ -1,0 +1,6 @@
+package com.example.demo.entity;
+
+@XmlJavaTypeAdapter(UserAdapter.class)
+public interface User {
+	String getName();
+}

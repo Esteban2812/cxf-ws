@@ -1,0 +1,14 @@
+package com.example.demo.ws;
+
+import java.util.Map;
+
+import jakarta.jws.WebService;
+import jakarta.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+
+@WebService
+public interface HelloWorld {
+	String sayHi(String text);
+	
+	@XmlJavaTypeAdapter(IntegerUserMapAdapter.class)
+	Map<Integer, User> getUsers();
+}
