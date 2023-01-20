@@ -1,7 +1,0 @@
-package com.example.demo.client;
-
-public class Client {
-
-		private static final QName SERVICE_NAME
-			= new QName("http://ws.demo.example.com/","HelloWorld")
-}

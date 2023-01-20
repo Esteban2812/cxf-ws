@@ -1,9 +1,0 @@
-package com.example.demo.ws;
-
-@WebService
-public class HelloWorld {
-	String sayHi(String text);
-	
-	@XMLJavaTypeAdapater(IntegerUserMapAdapter.class)
-	Map<Integer, User> getUsers();
-}

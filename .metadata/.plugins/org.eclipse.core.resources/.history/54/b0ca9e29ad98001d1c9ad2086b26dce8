@@ -1,7 +1,0 @@
-package com.example.demo.entity;
-
-import jakarta.xml.bind.annotation.adapters.XmlAdapter;
-
-public class IntegerUserMapAdapter extends XmlAdapter<IntegerUserMap, BoundType>{
-
-}
